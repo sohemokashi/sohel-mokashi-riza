@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sohel-mokashi-riza"
+  description: "sohel-mokashi"
+  annotations:
+    github.com/project-slug: sohemokashi/sohel-mokashi-riza
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "guests"
+  system: "examples"
+
